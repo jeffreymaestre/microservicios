@@ -10,6 +10,7 @@ spring:
           searchPaths: config-data
           username: ${GUT_USER}
           password: ${GIT_PASSWORD}
+          default-label: main # Agrega esta línea para establecer el valor predeterminado a "main"
 
 security:
   user:
